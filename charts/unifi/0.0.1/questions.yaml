@@ -1,0 +1,21 @@
+groups:
+  - name: "Unifi Configuration"
+    description: "Configure UniFi deployment"
+
+portals:
+  web_portal:
+    protocols:
+      - "http"
+    host:
+      - "$node_ip"
+    ports:
+      - "8443"
+    path: "/"
+
+questions:
+  - variable: testVar
+    label: "Test label"
+    group: "Unifi Configuration"
+    schema:
+      type: boolean
+      default: false
