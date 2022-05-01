@@ -1,15 +1,15 @@
 groups:
-  - name: "Unifi Configuration"
-    description: "Configure UniFi deployment"
+  - name: "openHAB Configuration"
+    description: "Configure openHAB deployment"
 
 portals:
   web_portal:
     protocols:
-      - "https"
+      - "http"
     host:
       - "$node_ip"
     ports:
-      - "8443"
+      - "8080"
     path: "/"
 
 questions:
