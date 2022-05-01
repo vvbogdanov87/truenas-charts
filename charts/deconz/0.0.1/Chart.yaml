@@ -1,0 +1,9 @@
+apiVersion: v2
+appVersion: 0.0.1
+description: deConz
+home: https://www.dresden-elektronik.com/wireless/software/deconz.html
+icon: https://www.dresden-elektronik.com/files/dresden-elektronik/img/favicon/apple-touch-icon.png
+keywords:
+- deconz
+name: deconz
+version: 0.0.1

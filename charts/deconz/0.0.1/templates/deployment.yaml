@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deconz
+  labels:
+    app: deconz
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: deconz
+  template:
+    metadata:
+      labels:
+        app: deconz
+    spec:
+      hostNetwork: true
+      containers:
+      - name: deconz
+        securityContext:
+          privileged: true
+        image: deconzcommunity/deconz:latest
+        env:
+        - name: DECONZ_WEB_PORT
+          value: "8380"
+        - name: DECONZ_WS_PORT
+          value: "8383"
+        ports:
+        - containerPort: 8380
+        - containerPort: 8383
+        resources:
+          requests:
+            cpu: 100m
+            memory: 1024M
+          limits:
+            cpu: 1000m
+            memory: 2048M
+        volumeMounts:
+          - name: config
+            mountPath: /opt/deCONZ
+          - name: localtime
+            mountPath: /etc/localtime
+          - name: ttyacm
+            mountPath: /dev/ttyACM0
+      volumes:
+        - name: config
+          hostPath:
+            path: /mnt/main/app_data/deconz
+        - name: localtime
+          hostPath:
+            path: /etc/localtime
+            type: File
+        - name: ttyacm
+          hostPath:
+            path: /dev/ttyACM0
+

@@ -1,0 +1,21 @@
+groups:
+  - name: "deConz Configuration"
+    description: "Configure deConz deployment"
+
+portals:
+  web_portal:
+    protocols:
+      - "http"
+    host:
+      - "$node_ip"
+    ports:
+      - "8380"
+    path: "/"
+
+questions:
+  - variable: testVar
+    label: "Test label"
+    group: "deConz Configuration"
+    schema:
+      type: boolean
+      default: false
