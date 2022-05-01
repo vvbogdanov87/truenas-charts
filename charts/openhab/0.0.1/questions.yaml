@@ -15,7 +15,7 @@ portals:
 questions:
   - variable: testVar
     label: "Test label"
-    group: "Unifi Configuration"
+    group: "openHAB Configuration"
     schema:
       type: boolean
       default: false
