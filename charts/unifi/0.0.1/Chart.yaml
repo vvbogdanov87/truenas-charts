@@ -1,0 +1,9 @@
+apiVersion: v2
+appVersion: 0.0.1
+description: UniFi controller
+home: https://ui.com/
+icon: https://www.ui.com/microsite/logo192.png
+keywords:
+- unifi
+name: unifi
+version: 1.7.3
