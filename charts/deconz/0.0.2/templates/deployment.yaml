@@ -26,9 +26,9 @@ spec:
         - name: DECONZ_WS_PORT
           value: "8383"
         - name: DECONZ_VNC_MODE
-          value: 1
+          value: "1"
         - name: DECONZ_VNC_PORT
-          value: 5900
+          value: "5900"
         ports:
         - containerPort: 8380
         - containerPort: 8383
