@@ -28,13 +28,14 @@ spec:
         - name: DECONZ_VNC_MODE
           value: "1"
         - name: DECONZ_VNC_PORT
-          value: "5900"
+          value: "5901"
         - name: DECONZ_NOVNC_PORT
-          value: "0"
+          value: "6080"
         ports:
         - containerPort: 8380
         - containerPort: 8383
-        - containerPort: 5900
+        - containerPort: 5901
+        - containerPort: 6080
         resources:
           requests:
             cpu: 100m
