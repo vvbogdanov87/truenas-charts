@@ -32,6 +32,7 @@ spec:
         ports:
         - containerPort: 8380
         - containerPort: 8383
+        - containerPort: 5900
         resources:
           requests:
             cpu: 100m
