@@ -30,7 +30,12 @@ spec:
         volumeMounts:
           - name: config
             mountPath: /home/admin/sepia-home-data
+          - name: logs
+            mountPath: /var/log/nginx
       volumes:
         - name: config
           hostPath:
             path: /mnt/main/app_data/sepia
+        - name: logs
+          hostPath:
+            path: /mnt/main/app_data/logs

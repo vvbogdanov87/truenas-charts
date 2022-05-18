@@ -9,8 +9,8 @@ portals:
     host:
       - "$node_ip"
     ports:
-      - "8380"
-    path: "/"
+      - "20726"
+    path: "/sepia/assist/app/index.html"
 
 questions:
   - variable: testVar
