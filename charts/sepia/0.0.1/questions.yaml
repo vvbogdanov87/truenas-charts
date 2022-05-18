@@ -1,0 +1,21 @@
+groups:
+  - name: "SEPIA Configuration"
+    description: "Configure SEPIA deployment"
+
+portals:
+  web_portal:
+    protocols:
+      - "http"
+    host:
+      - "$node_ip"
+    ports:
+      - "8380"
+    path: "/"
+
+questions:
+  - variable: testVar
+    label: "Test label"
+    group: "SEPIA Configuration"
+    schema:
+      type: boolean
+      default: false

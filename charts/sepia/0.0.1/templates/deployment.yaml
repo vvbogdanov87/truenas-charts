@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sepia
+  labels:
+    app: sepia
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sepia
+  template:
+    metadata:
+      labels:
+        app: sepia
+    spec:
+      hostNetwork: true
+      containers:
+      - name: sepia
+        image: sepia/home
+        ports:
+        - containerPort: 20726
+        resources:
+          requests:
+            cpu: 100m
+            memory: 1024M
+          limits:
+            cpu: 1000m
+            memory: 2048M
+        volumeMounts:
+          - name: config
+            mountPath: /home/admin/sepia-home-data
+      volumes:
+        - name: config
+          hostPath:
+            path: /mnt/main/app_data/sepia

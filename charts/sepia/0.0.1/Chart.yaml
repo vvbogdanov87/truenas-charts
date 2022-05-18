@@ -1,0 +1,9 @@
+apiVersion: v2
+appVersion: 0.0.1
+description: SEPIA
+home: https://sepia-framework.github.io/
+icon: https://sepia-framework.github.io/img/logo.png
+keywords:
+- sepia
+name: sepia
+version: 0.0.1
