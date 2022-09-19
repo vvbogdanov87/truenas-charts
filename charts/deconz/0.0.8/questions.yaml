@@ -13,9 +13,9 @@ portals:
     path: "/"
 
 questions:
-  - variable: testVar
-    label: "Test label"
+  - variable: image_tag
+    label: "Docker image tag"
     group: "deConz Configuration"
     schema:
-      type: boolean
-      default: false
+      type: string
+      default: "2.16.01"
