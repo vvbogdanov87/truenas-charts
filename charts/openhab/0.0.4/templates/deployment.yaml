@@ -25,6 +25,8 @@ spec:
           value: "8082"
         - name: OPENHAB_HTTPS_PORT
           value: "8083"
+        - name: EXTRA_JAVA_OPTS
+          value: "-Duser.timezone=America/Los_Angeles"
         ports:
         - containerPort: 8082
         - containerPort: 8083
