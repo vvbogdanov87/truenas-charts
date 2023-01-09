@@ -22,11 +22,11 @@ spec:
         - name: CRYPTO_POLICY
           value: "unlimited"
         - name: OPENHAB_HTTP_PORT
-          value: "8080"
+          value: "8082"
         - name: OPENHAB_HTTPS_PORT
           value: "8083"
         ports:
-        - containerPort: 8080
+        - containerPort: 8082
         - containerPort: 8083
         resources:
           requests:

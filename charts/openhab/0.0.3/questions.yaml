@@ -9,7 +9,7 @@ portals:
     host:
       - "$node_ip"
     ports:
-      - "8080"
+      - "8082"
     path: "/"
 
 questions:
