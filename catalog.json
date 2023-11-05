@@ -27,6 +27,9 @@
             "tags": [
                 "smarthome"
             ],
+            "sources": [
+                "https://github.com/vvbogdanov87/truenas-charts/tree/main/charts/deconz"
+            ],
             "icon_url": "https://www.dresden-elektronik.com/files/dresden-elektronik/img/favicon/apple-touch-icon.png"
         }
     }
