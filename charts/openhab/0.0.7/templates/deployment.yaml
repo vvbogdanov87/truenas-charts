@@ -19,7 +19,7 @@ spec:
       hostNetwork: true
       containers:
       - name: openhab
-        image: openhab/openhab:3.4.3-debian
+        image: openhab/openhab:{{ .Values.image_tag }}
         env:
         - name: CRYPTO_POLICY
           value: "unlimited"
