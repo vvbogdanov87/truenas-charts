@@ -16,6 +16,13 @@
             "name": "deconz",
             "recommended": false,
             "title": "deconz",
+            "maintainers": [
+                {
+                    "name": "Viktor",
+                    "url": "https://github.com/vvbogdanov87",
+                    "email": "viktor@viktor.com"
+                }
+            ],
             "tags": [
                 "smarthome"
             ],
