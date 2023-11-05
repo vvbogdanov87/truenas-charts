@@ -3,7 +3,7 @@
         "deconz": {
             "app_readme": "<h1>deconz</h1>",
             "categories": [
-                "smarthome"
+                "monitoring"
             ],
             "description": "deconz",
             "healthy": true,
