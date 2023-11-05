@@ -28,6 +28,35 @@
             "sources": [],
             "screenshots": [],
             "icon_url": "https://www.dresden-elektronik.com/files/dresden-elektronik/img/favicon/apple-touch-icon.png"
+        },
+        "openhab": {
+            "app_readme": "<h1>openhab</h1>",
+            "categories": [
+                "monitoring"
+            ],
+            "description": "openhab",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.dresden-elektronik.com",
+            "location": "/__w/charts/charts/charts/openhab",
+            "latest_version": "0.0.7",
+            "latest_app_version": "0.0.1",
+            "latest_human_version": "0.0.1",
+            "last_update": "2023-11-05 14:00:00",
+            "name": "deconz",
+            "recommended": false,
+            "title": "deconz",
+            "maintainers": [
+                {
+                    "name": "Viktor",
+                    "url": "https://github.com/vvbogdanov87",
+                    "email": "viktor@viktor.com"
+                }
+            ],
+            "tags": [],
+            "sources": [],
+            "screenshots": [],
+            "icon_url": "https://www.dresden-elektronik.com/files/dresden-elektronik/img/favicon/apple-touch-icon.png"
         }
     }
 }
