@@ -8,6 +8,7 @@
             "description": "deconz",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.dresden-elektronik.com",
             "location": "/__w/charts/charts/charts/deconz",
             "latest_version": "0.0.9",
             "latest_app_version": "0.0.1",
