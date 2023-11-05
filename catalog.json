@@ -1,0 +1,25 @@
+{
+    "deconz": {
+        "prometheus": {
+            "app_readme": "<h1>deconz</h1>",
+            "categories": [
+                "smarthome"
+            ],
+            "description": "deconz",
+            "healthy": true,
+            "healthy_error": null,
+            "location": "/__w/charts/charts/charts/deconz",
+            "latest_version": "0.0.9",
+            "latest_app_version": "0.0.1",
+            "latest_human_version": "0.0.1",
+            "last_update": "2023-11-05 14:00:00",
+            "name": "deconz",
+            "recommended": false,
+            "title": "deconz",
+            "tags": [
+                "smarthome"
+            ],
+            "icon_url": "https://www.dresden-elektronik.com/files/dresden-elektronik/img/favicon/apple-touch-icon.png"
+        }
+    }
+}
