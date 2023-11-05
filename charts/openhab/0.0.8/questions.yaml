@@ -18,4 +18,4 @@ questions:
     group: "openHAB Configuration"
     schema:
       type: string
-      default: "2.16.01"
+      default: "3.4.3-debian"
