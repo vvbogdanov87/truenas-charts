@@ -1,4 +1,8 @@
 {
+  "normalize/acl": {
+    "stable": {"min":  "23.10-ALPHA"},
+    "nightlies": {"min":  "23.10-MASTER-somever"}
+  },
   "normalize/interfaceConfiguration": {
     "stable": {"min":  "20.12-ALPHA"},
     "nightlies": {"min":  "20.10-MASTER-somever"}
@@ -30,6 +34,10 @@
   "definitions/certificateAuthority": {
     "stable": {"min": "21.04-ALPHA"},
     "nightlies": {"min": "21.02-MASTER"}
+  },
+  "definitions/port": {
+    "stable": {"min": "23.10-BETA.1"},
+    "nightlies": {"min": "23.10-MASTER"}
   },
   "validations/containerImage": {
     "stable": {"min": "21.06-BETA"},
