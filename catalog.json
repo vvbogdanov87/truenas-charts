@@ -3,7 +3,7 @@
         "deconz": {
             "app_readme": "<h1>deconz</h1>",
             "categories": [
-                "monitoring"
+                "smarthome"
             ],
             "description": "deconz",
             "healthy": true,
@@ -32,20 +32,20 @@
         "openhab": {
             "app_readme": "<h1>openhab</h1>",
             "categories": [
-                "monitoring"
+                "smarthome"
             ],
             "description": "openhab",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://www.dresden-elektronik.com",
+            "home": "https://www.openhab.org/",
             "location": "/__w/charts/charts/charts/openhab",
             "latest_version": "0.0.8",
             "latest_app_version": "0.0.1",
             "latest_human_version": "0.0.1",
             "last_update": "2023-11-05 14:00:00",
-            "name": "deconz",
+            "name": "openhab",
             "recommended": false,
-            "title": "deconz",
+            "title": "openhab",
             "maintainers": [
                 {
                     "name": "Viktor",
@@ -56,7 +56,36 @@
             "tags": [],
             "sources": [],
             "screenshots": [],
-            "icon_url": "https://www.dresden-elektronik.com/files/dresden-elektronik/img/favicon/apple-touch-icon.png"
+            "icon_url": "https://www.openhab.org/demo/openhab-logo-square.png"
+        },
+        "unifi": {
+            "app_readme": "<h1>unifi</h1>",
+            "categories": [
+                "smarthome"
+            ],
+            "description": "unifi",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://ui.com/",
+            "location": "/__w/charts/charts/charts/openhab",
+            "latest_version": "0.0.2",
+            "latest_app_version": "0.0.1",
+            "latest_human_version": "0.0.1",
+            "last_update": "2023-11-05 14:00:00",
+            "name": "unifi",
+            "recommended": false,
+            "title": "unifi",
+            "maintainers": [
+                {
+                    "name": "Viktor",
+                    "url": "https://github.com/vvbogdanov87",
+                    "email": "viktor@viktor.com"
+                }
+            ],
+            "tags": [],
+            "sources": [],
+            "screenshots": [],
+            "icon_url": "https://www.ui.com/microsite/logo192.png"
         }
     }
 }
