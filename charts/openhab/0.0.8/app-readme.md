@@ -1,3 +1,0 @@
-# openHAB
-
-openHAB

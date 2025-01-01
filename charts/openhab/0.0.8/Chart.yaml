@@ -1,9 +1,0 @@
-apiVersion: v2
-appVersion: 0.0.1
-description: openHAB
-home: https://www.openhab.org/
-icon: https://www.openhab.org/demo/openhab-logo-square.png
-keywords:
-- openhab
-name: openhab
-version: 0.0.8
