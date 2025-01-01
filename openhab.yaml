@@ -1,0 +1,24 @@
+name: openhab
+services:
+  openhab:
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 2048M
+    environment:
+      CRYPTO_POLICY: "unlimited"
+      OPENHAB_HTTP_PORT: "8082"
+      OPENHAB_HTTPS_PORT: "8083"
+      EXTRA_JAVA_OPTS: "-Duser.timezone=America/Los_Angeles"
+    image: openhab/openhab:4.3.1-debian
+    ports:
+      - 8082:8082
+      - 8083:8083
+    network_mode: "host"
+    volumes:
+      - /mnt/main/app_data/openhab/conf:/openhab/conf
+      - /mnt/main/app_data/openhab/userdata:/openhab/userdata
+      - /mnt/main/app_data/openhab/addons:/openhab/addons
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
