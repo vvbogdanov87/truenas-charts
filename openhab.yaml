@@ -11,7 +11,7 @@ services:
       OPENHAB_HTTP_PORT: "8082"
       OPENHAB_HTTPS_PORT: "8083"
       EXTRA_JAVA_OPTS: "-Duser.timezone=America/Los_Angeles"
-    image: openhab/openhab:4.3.1-debian
+    image: openhab/openhab:4.3.5-debian
     ports:
       - 8082:8082
       - 8083:8083

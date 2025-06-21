@@ -12,7 +12,7 @@ services:
       DECONZ_VNC_MODE: "1"
       DECONZ_VNC_PORT: "5901"
       DECONZ_NOVNC_PORT: "6080"
-    image: deconzcommunity/deconz:2.29.1
+    image: deconzcommunity/deconz:2.30.2
     ports:
       - 8380:8380
       - 8383:8383
